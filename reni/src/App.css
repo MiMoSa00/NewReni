@@ -1,0 +1,9 @@
+.custom-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+.custom-checkbox:hover {
+  background-color: #a5a5a5;
+}
