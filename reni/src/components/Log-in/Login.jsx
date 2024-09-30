@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 
 // imported images
-import Background from '../assets/bgimage.png'
-import logo from '../assets/logo.png'
+import Background  from '../../assets/bgimage.png'
+import logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom'
 const Login = () => {
 
