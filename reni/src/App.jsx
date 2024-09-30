@@ -17,16 +17,16 @@ function App() {
     <Router>
      <Routes>
       <Route index element={<Verification />} />
-      <Route path="verify" element={<Verification />}/>
-      <Route path="sign-up" element={<Signup />} />
-      <Route path="log-in" element={<Login />} />
-      <Route path="log-in/forgot" element={<Forgot />} />
-      <Route path="reset" element={<Reset />} />
+      <Route path="/verify" element={<Verification />}/>
+      <Route path="/sign-up" element={<Signup />} />
+      <Route path="/log-in" element={<Login />} />
+      <Route path="/log-in/forgot" element={<Forgot />} />
+      <Route path="/reset" element={<Reset />} />
 
-      <Route path="dashboard" element={<Dashboard />} />
-      <Route path="api" element={<Api />} />
-      <Route path="webhook" element={<Webhook />} />
-      <Route path="changepassword" element={<ChangePassword />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/api" element={<Api />} />
+      <Route path="/webhook" element={<Webhook />} />
+      <Route path="/changepassword" element={<ChangePassword />} />
 
       {/* <Route path="dashboard" element={<Dashboard />} /> */}
      </Routes>
