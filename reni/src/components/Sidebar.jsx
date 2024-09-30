@@ -178,7 +178,7 @@ const Sidebar = ({show, set}) => {
                     <AiOutlineUser className="icon" /> Profile
                   </li>
                 </Link>
-                <Link to="/change">
+                <Link to="/changepassword">
                   <li className="flex items-center list-none gap-2 py-5 hover:bg-customBlack rounded-lg transition-colors duration-300">
                     <MdLockOutline className="icon" /> Change password
                   </li>
