@@ -31,13 +31,13 @@ const Dashboard = () => {
     
           <div className="bg-white lg:w-[33%] w-full rounded-md p-4"> {/* Use w-full on small screens */}
             <p className="font-medium">Wallet Balance</p>
-            <h2 className='font-semibold text-7xl'>0.00</h2>
+            <h2 className='font-semibold text-7xl right-1 relative'>0.00</h2>
             <p>Kuda Bank (1234 2345 7890)</p>
           </div>
 
           <div className="bg-white lg:w-[48.5%] w-full rounded-md p-2"> {/* Use w-full on small screens */}
             <p className='mb-6 font-medium'>Tools</p>
-            <div className="flex gap-9 lg:gap-6 lg:justify-center"> {/* Added flex-wrap to prevent overflow */}
+            <div className="flex gap-4 lg:gap-6 justify-center"> {/* Added flex-wrap to prevent overflow */}
               <img src={dash} alt="Tool" className="w-12 h-12 xl:w-29 xl:h-29 lg:w-19 lg:h-19"/>
               <img src={dash} alt="Tool" className="w-12 h-12 xl:w-29 xl:h-29 lg:w-19 lg:h-19" />
               <img src={dash} alt="Tool" className="w-12 h-12 xl:w-29 xl:h-29 lg:w-19 lg:h-19" />
