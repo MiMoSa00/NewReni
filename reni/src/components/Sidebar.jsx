@@ -124,6 +124,7 @@ const Sidebar = ({show, set}) => {
               </div>
             )}
           </div>
+          <Link to='/log-in'></Link>
           <div className="flex items-center gap-2 px-2 py-5 hover:bg-customBlack focus-within:bg-customBlack active:bg-customBlack rounded-lg transition-colors duration-300">
             <MdLogout />
             <li className="list-none">Logout</li>
