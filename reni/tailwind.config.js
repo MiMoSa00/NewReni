@@ -15,6 +15,7 @@ module.exports = {
         customGray: '#667085',
         DeepGray: '#474E67',
         OffWhite: '#F3F3F3',
+        custom: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
         
       },
     },

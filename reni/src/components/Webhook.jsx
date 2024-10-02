@@ -133,7 +133,7 @@ const Webhook = () => {
               <h4 className='font-bold text-base'>Webhooks</h4>
               <BsThreeDots onClick={toggleDropdown3} className='relative' />
             {dropdownVisible3 && (
-              <ul className='absolute top-[4%] lg:top-[6%] z-30 right-2 lg:right-12 rounded-md p-4 bg-white'>
+              <ul className='absolute top-[4%] xl:top-[29%] lg:top-[26%] border border-custom z-30 right-2 lg:right-28 xl:right-28 rounded-md p-4 bg-white'>
                 
                 <li className='cursor-pointer'  onClick={() => {
                     setOpenModal(true)
@@ -175,10 +175,10 @@ const Webhook = () => {
       <thead>
         <tr className="text-lightGray ">
           <th className="text-left left-4 relative py-1 font-medium text-sm">Name</th>
-          <th className="text-left left-4 py-1 lg:left-44 relative font-medium text-sm">Status</th>
-          <th className="text-left left-4 relative py-1 lg:left-44 font-medium text-sm">Created Date</th>
-          <th className="text-left left-4 py-1 lg:left-24 relative font-medium text-sm">Last Called</th>
-          <th className="lg:right-0 right-10 relative pl-10 py-1 whitespace-nowrap font-medium text-sm">Show more</th>
+          <th className="text-left left-4 py-1 xl:left-44 lg:left-11  relative font-medium text-sm">Status</th>
+          <th className="text-left left-4 relative py-1 lg:left-10  xl:left-44 font-medium text-sm">Created Date</th>
+          <th className="text-left left-4 py-1 lg:left-[0%]  xl:left-24 relative font-medium text-sm">Last Called</th>
+          <th className="lg:right-24 xl:right-0 right-10 relative pl-10 py-1 whitespace-nowrap font-medium text-sm">Show more</th>
         </tr>
       </thead>
       <tbody>
@@ -187,14 +187,14 @@ const Webhook = () => {
             <tr className="">
               <td className="pr-4  py-1 whitespace-nowrap lg:left-4 relative">{item.apiName}</td>
               <td className="px-4 py-1 whitespace-nowrap">
-                <div className='bg-customGreen rounded-2xl  lg:left-40 px-2  relative text-center text-sm text-white'>{item.status}</div>
+                <div className='bg-customGreen rounded-2xl lg:left-6 xl:left-36 px-2  relative text-center text-sm text-white'>{item.status}</div>
               </td>
               <div className='lg:w-[10%]   lg:pl-12'>
-              <td className="px-4 py-1  whitespace-nowrap lg:left-28 relative ">{item.Date}</td>
+              <td className="px-4 py-1  whitespace-nowrap lg:right-7 xl:left-28 relative ">{item.Date}</td>
               </div>
-              <td className="px-4 py-1  lg:left-8 relative text-right whitespace-nowrap">{item.Time}</td>
+              <td className="px-4 py-1 lg:right-9  xl:left-8 relative text-right whitespace-nowrap">{item.Time}</td>
               <td
-                className="text-right lg:pl-28 pl-12 py-2 cursor-pointer"
+                className="text-right  lg:pl-0 text-lightGray xl:pl-28 pl-12 py-2 cursor-pointer"
                 onClick={() => toggleDropdown1(index)}
               >
                 {dropdownVisible1[index] ? <IoIosArrowUp /> : <IoIosArrowDown />}
@@ -236,7 +236,7 @@ const Webhook = () => {
             <h4 className='font-bold text-base'>Analytics</h4>
             <BsThreeDots onClick={toggleDropdown2} className='relative' />
               {dropdownVisible2 && (
-                 <ul className='absolute lg:top-[62%] rounded-md w-1/6 top-[50%] z-30 right-4 p-4 bg-white'>
+                 <ul className='absolute xl:top-[12%] lg:top-[14%] border border-custom rounded-md w-1/6 top-[50%] z-30 right-4 p-4 bg-white'>
                  <li className=''>Hide</li>
                </ul>
                 

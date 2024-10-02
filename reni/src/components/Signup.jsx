@@ -28,13 +28,13 @@ const Signup = () => {
                 <img src={Background} className='object-cover' />
             </div>
 
-            <div className='bg-customLightBlue py-8 min-h-screen'>
-                <div className='flex items-center justify-center gap-3'>
+            <div className='bg-customLightBlue py-2 min-h-full'>
+                <div className='flex lg:mt-6 xl:mt-8 items-center justify-center gap-3'>
                     <img src={logo} className='h-14 w-14' />
                     <p className='text-customDeepBlue font-bold'>RENI.One</p>
                 </div>
-                <div className='mt-[10%] mx-4'>
-                    <div className='my-8 text-blue-900 font-bold text-lg'>
+                <div className='mt-[20%] mx-4'>
+                    <div className='my-2 text-blue-900 font-bold text-lg'>
                         <p className='text-center'>Let's get started</p>
                     </div>
                     <div className='bg-gradient-to-b from-customDeepBlue to-white h-full rounded-md p-3'>
@@ -43,24 +43,24 @@ const Signup = () => {
                             <div className='grid grid-cols-1 md:grid-cols-2 gap-3 items-center'>
                                 <div className=''>
                                     <label className='mb-2  text-lightGray'>First name</label>
-                                    <input className='w-[100%] px-12 block ring-1 ring-gray-400 focus:ring outline-none h-10 rounded-md' type='email' />
+                                    <input className='w-[100%] px-3 block ring-1 ring-gray-400 focus:ring outline-none h-10 rounded-md' type='email' />
                                 </div>
                                 <div className=''>
                                     <label className='mb-2 block text-lightGray'>Last name</label>
-                                    <input className='w-full ring-1 px-12 ring-gray-400 focus:ring outline-none h-10 rounded-md' type='email' />
+                                    <input className='w-full ring-1 px-3 ring-gray-400 focus:ring outline-none h-10 rounded-md' type='email' />
                                 </div>
 
                             </div>
                             <div className='my-2'>
                                 <label className='text-lightGray font-normal mb-3 lg:mb-5'>Phone number</label>
-                                <input className='w-[100%] ring-1 px-8 py-2 mb-2 ring-lightGray rounded-md focus:ring outline-none lg:w-full ' type='text' placeholder='0918876568' />
+                                <input className='w-[100%] ring-1 px-3 py-2 mb-2 ring-lightGray rounded-md focus:ring outline-none lg:w-full ' type='text' placeholder='0918876568' />
 
 
                             </div>
                             <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
                                 <div className=''>
                                     <label className='  text-lightGray'>Username</label>
-                                    <input className='w-[100%] px-12 block ring-1 ring-gray-400 h-10 focus:ring outline-none rounded-md' type='email' />
+                                    <input className='w-[100%] px-3 block ring-1 ring-gray-400 h-10 focus:ring outline-none rounded-md' type='email' />
                                 </div>
                                 <div className='w-full lg:ml-0 '>
                                     <label className='block text-lightGray'>Gender</label>
@@ -75,7 +75,7 @@ const Signup = () => {
                             </div>
                             <div className=' lg:ml-0'>
                                 <label className='text-lightGray font-normal mb-3 lg:mb-5'>Password</label>
-                                <div className=' ring-1 px-2 py-2 mb-2 ring-lightGray rounded-md focus:ring outline-none lg:w-full relative' >
+                                <div className=' ring-1 px-3 py-2 mb-2 ring-lightGray rounded-md focus:ring outline-none lg:w-full relative' >
                                     <input className='border-none outline-none' type={showPassword ? 'text' : 'password'}
                                         value={password}
                                         onChange={(e) => setPassword(e.target.value)}
@@ -85,7 +85,7 @@ const Signup = () => {
                             </div>
                             <div className=' lg:ml-0'>
                                 <label className='text-lightGray font-normal mb-3 lg:mb-5'>Confirm Password</label>
-                                <div className=' ring-1 px-2 py-2 mb-2 ring-lightGray rounded-md focus:ring outline-none lg:w-full relative' >
+                                <div className=' ring-1 px-3 py-2 mb-2 ring-lightGray rounded-md focus:ring outline-none lg:w-full relative' >
                                     <input className='border-none outline-none ' type={confirmPassword ? 'text' : 'password'}
                                         value={confirm}
                                         onChange={(e) => setConfirm(e.target.value)}

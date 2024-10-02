@@ -129,7 +129,7 @@ const Profile = () => {
               </select>
               </div>
              
-              <div className="flex relative lg:-ml-52 left-28 gap-5 items-center">
+              <div className="flex relative lg:-ml-36 xl:-ml-52 left-28 gap-5 items-center">
               <p className='text-blue-500 font-normal'>Upload</p>
         <div className="flex items-center p-2 rounded-lg gap-2 bg-blue-300" onClick={openFileDialog}>
         <span>MY NIN.png</span>
@@ -154,7 +154,7 @@ const Profile = () => {
                   placeholder='xxx xxxx'
                   className='border-none outline-none pl-2'
                 />
-                <div className="relative right-5 text-xl text-lightGray" onClick={toggleShowPassword}>
+                <div className="relative right-5 lg:right-1 text-xl text-lightGray" onClick={toggleShowPassword}>
                   {showPassword ? <IoMdEyeOff /> : <IoMdEye />}
                 </div>
               </div>
@@ -189,7 +189,7 @@ const Profile = () => {
             <div className="flex items-center gap-5 py-3">
               <label  className="text-DeepGray font-medium">Memorandum <br /> of Article</label>
               <div className="lg:flex lg:items-center lg:w-full lg:left-1 relative lg:gap-3">
-              <input className="outline-none border border-lightGray rounded-md pl-2 p-2 lg:w-[40%]"  type="mail" placeholder='My Memorandum Aritcle.png' />
+              <input className="outline-none border border-lightGray rounded-md pl-2 p-2 lg:w-[44%] xl:w-[40%]"  type="mail" placeholder='My Memorandum Aritcle.png' />
               <p className='text-right text-blue-500 font-medium'>Uploaded</p>
       
               </div>
@@ -198,7 +198,7 @@ const Profile = () => {
             <div className="flex items-center gap-10 py-3">
       <label className="text-DeepGray font-medium">Registration <br /> Status</label>
      <div className="lg:flex lg:items-center lg:w-full lg:gap-3">
-     <input className="outline-none border border-lightGray rounded-md pl-2 p-2 lg:w-[40%]" type="mail" />
+     <input className="outline-none border border-lightGray rounded-md pl-2 p-2 lg:w-[44%] xl:w-[40%]" type="mail" />
      <p className="text-right text-blue-500 font-medium">Upload</p>
      </div>
    

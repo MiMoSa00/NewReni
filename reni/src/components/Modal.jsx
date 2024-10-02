@@ -3,7 +3,7 @@ import React from 'react'
 const Modal = ({ closeModal}) => {
   return (
     <div className='w-full bg-customBlack overflow-y-scroll absolute h-full z-40 top-0 left-0'>
-        <div className='bg-white lg:w-[39%] top-36 w-[90%] left-5 p-4 lg:top-10 relative lg:left-80 rounded-md'>
+        <div className='bg-white lg:w-[39%] top-36 w-[90%] left-5 p-4 lg:top-10 relative lg:left-56 xl:left-80 rounded-md'>
            <div className='text-right'>
            <button className="bg-transparent text-black  font-medium text-xl"onClick={() =>  closeModal(false)}>X</button>
             </div>

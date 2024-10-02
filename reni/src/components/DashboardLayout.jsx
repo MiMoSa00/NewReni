@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Sidebar from './Sidebar'
-import TopBar from './TopBar'
+import TopBar from './TopBar';
 
 const DashboardLayout = ({ children }) => {
     const [showSidebar, setShowSidebar] = useState(false);

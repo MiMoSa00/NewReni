@@ -3,8 +3,8 @@ import React from 'react'
 
 const WebModal = ({ closeModal }) => {
   return (
-    <div className='w-full bg-customBlack  absolute h-full z-40 top-0 left-0'>
-        <div className="bg-white lg:w-[29%] w-[90%] left-5 p-4 top-[35%] lg:top-[40%] relative lg:left-[20%] rounded-md">
+    <div className='w-full bg-customBlack absolute h-full  mx-auto z-40 top-0 left-0'>
+        <div className="bg-white lg:w-[35%] lg:left-[19%] xl:w-[29%] w-[90%] left-5  p-4 top-[35%] xl:top-[36%] xl:left-[23%] lg:top-[37%] lg:ml-32 relative rounded-md">
             <div className='flex justify-between items-center'>
             <h2 className='font-medium text-base'>Edit webhook</h2>
             <button className="text-black"  onClick={() =>  closeModal(false)}>X</button>
