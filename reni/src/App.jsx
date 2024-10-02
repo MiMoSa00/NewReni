@@ -10,6 +10,7 @@ import Dashboard from "./components/Dashboard"
 import Api from "./components/API/Api"
 import Webhook from "./components/Webhook"
 import ChangePassword from "./components/ChangePassword"
+import Profile from "./components/Profile"
 
 function App() {
   return(
@@ -26,6 +27,7 @@ function App() {
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/api" element={<Api />} />
       <Route path="/webhook" element={<Webhook />} />
+      <Route path="/profile" element={<Profile />} />
       <Route path="/changepassword" element={<ChangePassword />} />
 
       {/* <Route path="dashboard" element={<Dashboard />} /> */}

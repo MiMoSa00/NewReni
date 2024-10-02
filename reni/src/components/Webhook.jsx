@@ -126,7 +126,7 @@ const Webhook = () => {
             {openModal && <WebModal closeModal={setOpenModal} />}
             
   <div className='bg-customLightBlue min-h-screen w-full overflow-x-hidden relative'>
-  <div className='px-2 py-4 lg:pl-4 '>
+  <div className='px-2 py-4 lg:pl-4 relative lg:left-20'>
         <div className='bg-white lg:w-[86%]  rounded-md px-3 py-2'>
           <div>
             <div className='flex justify-between items-center'>
@@ -169,7 +169,7 @@ const Webhook = () => {
         </div>
         </div>
        
-     <div className="p-2 pl-4 lg:w-[86%] w-full overflow-x-scroll lg:overflow-x-hidden pb-4 ">
+     <div className="p-2 pl-4 lg:w-[86%] relative lg:left-20 w-full overflow-x-scroll lg:overflow-x-hidden pb-4 ">
   <div className="bg-white p-4 rounded-md overflow-x-scroll lg:overflow-x-hidden w-[100%] flex justify-between">
     <table className="w-full">
       <thead>
@@ -230,7 +230,7 @@ const Webhook = () => {
   </div>
 </div>
 
-<div className='p-2  pl-4 lg:w-[86%] pb-[100px]'>
+<div className='p-2  pl-4 lg:w-[86%] pb-[100px] relative lg:left-20'>
      <div className='bg-white p-4 rounded-md '>
           <div className='flex justify-between'>
             <h4 className='font-bold text-base'>Analytics</h4>

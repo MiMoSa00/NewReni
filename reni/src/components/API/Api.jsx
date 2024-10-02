@@ -87,8 +87,8 @@ const Api = () => {
   return (
         <DashboardLayout>
   <div className='bg-customLightBlue min-h-screen w-full overflow-x-hidden relative'>
-  <div className='px-2 py-4 lg:pl-4 '>
-        <div className='bg-white lg:w-[86%]  rounded-md p-3'>
+  <div className='px-2 py-4 lg:pl-4 relative lg:left-20'>
+        <div className='bg-white lg:w-[86%]   rounded-md p-4'>
           <div>
             <div className='flex justify-between items-center'>
               <h4 className='font-semibold text-lg'>API</h4>
@@ -153,7 +153,7 @@ const Api = () => {
           </div>
         </div>
         </div>
-        <div className='p-2  pl-4 lg:w-[86%] pb-4'>
+        <div className='p-2 relative lg:left-20  pl-4 lg:w-[86%] pb-4'>
      <div className='bg-white p-4 rounded-md '>
           <div className='flex justify-between'>
             <h4>API Stats</h4>
@@ -181,7 +181,7 @@ const Api = () => {
           </div>
         </div>
      </div>
-     <div className="p-2 pl-4 lg:w-[86%] w-full overflow-x-scroll lg:overflow-x-hidden pb-[100px]">
+     <div className="p-2 pl-4 lg:w-[86%] w-full relative lg:left-20 overflow-x-scroll lg:overflow-x-hidden pb-[100px]">
   <div className="bg-white p-4 rounded-md overflow-x-scroll lg:overflow-x-hidden w-[100%] flex justify-between">
     <table className="w-full">
       <thead>

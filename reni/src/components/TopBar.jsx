@@ -44,12 +44,12 @@ const TopBar = ({ show, set }) => {
                 <img src={small} className="w-5 h-5 lg:w-7 lg:h-7 max-w-full" alt="small logo" /> {/* Added max-w-full */}
                 Sheda House
               </li>
-              <p className="text-xs pl-6 text-gray-500">shedahouse.com</p>
+              <p className="text-xs pl-6 relative left-2 text-gray-500 lg:left-4">shedahouse.com</p>
               <li className="flex items-center gap-2 p-1 hover:bg-gray-200">
                 <img src={small} className="w-5 h-5 lg:w-7 lg:h-7 max-w-full" alt="small logo" /> {/* Added max-w-full */}
                 Renitechnologies
               </li>
-              <p className="text-xs pl-6 text-gray-500">renitechnologies.com</p>
+              <p className="text-xs pl-6 text-gray-500 relative left-2 lg:left-4">renitechnologies.com</p>
             </ul>, 
             document.body
           )}

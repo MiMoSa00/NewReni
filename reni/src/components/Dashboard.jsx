@@ -25,7 +25,7 @@ const Dashboard = () => {
   return (
     <DashboardLayout>
       <div className="bg-customLightBlue min-h-screen w-full  overflow-x-hidden relative"> 
-        <div className="lg:flex grid grid-cols-1 gap-8 py-4 px-2 sm:px-4"> {/* Reduced padding on small screens */}
+        <div className="lg:flex  lg:justify-center grid grid-cols-1 gap-8 py-4 px-2 sm:px-4"> {/* Reduced padding on small screens */}
     
           <div className="bg-white lg:w-1/3 w-full rounded-md p-4"> {/* Use w-full on small screens */}
             <p className="font-medium">Wallet Balance</p>
@@ -45,8 +45,8 @@ const Dashboard = () => {
           </div>
 
         </div>
-        <div className='px-2 lg:px-4 lg:w-[87%]'>
-        <div className="bg-white  w-full rounded-md p-2">
+        <div className='px-2 lg:left-20 relative '>
+        <div className="bg-white  w-full lg:w-[85%] rounded-md p-2">
          <div className='flex justify-between p-2'>
           <h2 className='font-medium text-lg'>Business</h2>
           <button onClick={() => {
@@ -69,8 +69,8 @@ const Dashboard = () => {
           </div>
         </div>
         </div>
-        <div className='px-2 py-4 lg:pl-4 '>
-        <div className='bg-white lg:w-[86%]  rounded-md p-3'>
+        <div className='px-2 py-4 lg:left-20 relative '>
+        <div className='bg-white lg:w-[85%]  rounded-md p-3'>
           <div>
             <div className='flex justify-between items-center'>
               <h4 className='font-semibold text-lg'>API</h4>
@@ -129,7 +129,7 @@ const Dashboard = () => {
           </div>
         </div>
         </div>
-     <div className='p-2  pl-4 lg:w-[86%] pb-[100px]'>
+     <div className='p-2   pl-2 lg:w-[85%] lg:pl-1 lg:left-20 relative pb-[100px]'>
      <div className='bg-white p-4 rounded-md '>
           <div className='flex justify-between'>
             <h4 className='font-medium'>API Stats</h4>
