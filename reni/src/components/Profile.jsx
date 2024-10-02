@@ -42,13 +42,13 @@ const Profile = () => {
   return (
     <DashboardLayout>
       <div className='bg-customLightBlue min-h-screen w-full overflow-x-hidden relative'>
-        <div className='px-3 pb-10'>
-        <div className="bg-white lg:w-[85%] relative lg:left-20 top-9 rounded-md p-4">
+        <div className='px-1 pb-10'>
+        <div className="bg-white lg:w-[85%] w-full relative lg:left-20 top-9 rounded-md p-4">
           <h1 className='font-bold text-base'>Billing</h1>
           <div className="flex gap-12 py-2 lg:py-3 items-center">
-            <p className='text-lightGray'>Current Plan</p>
+            <p className='text-lightGray whitespace-nowrap'>Current Plan</p>
             <span className='text-customDeepBlue font-bold text-base'>Free</span>
-            <button className='text-white bg-customDeepBlue rounded-lg p-2 text-sm'>Upgrade plan</button>
+            <button className='text-white bg-customDeepBlue rounded-lg p-2 text-sm whitespace-nowrap'>Upgrade plan</button>
           </div>
 
           <div className="lg:flex items-center gap-12 py-3">
@@ -68,7 +68,7 @@ const Profile = () => {
         </div>
         </div>
        
-        <div className='px-3 py-3'>
+        <div className='px-1 py-3'>
         <div className="bg-white rounded-md p-4 lg:w-[85%] relative lg:left-20 ">
           <h2 className='font-bold text-base'>Account Information</h2>
           <div className="py-3">
@@ -88,16 +88,16 @@ const Profile = () => {
         </div>
         </div>
 
-        <div className='px-3'>
+        <div className='px-1'>
         <div className="bg-white p-3 rounded-md lg:w-[85%] relative lg:left-20">
           <h2 className='font-bold text-base pb-2'>Profile Information</h2>
           <div className="py-3">
             <div className="flex gap-10">
-              <label className='text-DeepGray font-medium'>First name</label>
+              <label className='text-DeepGray font-medium whitespace-nowrap'>First name</label>
               <input type="text" placeholder='Enter first name'  className='border border-lightGray outline-none pl-3 p-1 rounded-md lg:w-1/2'/>
               </div>
             <div className="flex gap-10 py-3">
-              <label className='text-DeepGray font-medium'>Last name</label>
+              <label className='text-DeepGray font-medium whitespace-nowrap'>Last name</label>
               <input type="text" placeholder='Enter last name'  className='border border-lightGray outline-none pl-3 p-1 rounded-md lg:w-1/2'/>
             </div>
             <div className="flex items-center gap-7">
@@ -115,7 +115,7 @@ const Profile = () => {
         </div>
         </div>
        
-        <div className='px-3 py-4'>
+        <div className='px-1 py-4'>
         <div className="bg-white p-3 rounded-md lg:w-[85%] relative lg:left-20 ">
           <h2 className='font-bold text-base'>KYC</h2>
           <div className="another-container">
@@ -175,12 +175,12 @@ const Profile = () => {
         </div>
         </div>
        
-       <div className='px-3 '>
+       <div className='px-1 '>
        <div className="bg-white p-4 lg:w-[85%] relative lg:left-20 rounded-md">
           <h2 className='font-bold text-base'>KYB</h2>
           <div className="py-3">
             <div className="flex items-center gap-5">
-              <label  className="text-DeepGray font-medium">CAC Certificate <br /> No</label>
+              <label  className="text-DeepGray font-medium whitespace-nowrap">CAC Certificate <br /> No</label>
             <input className="outline-none border border-lightGray rounded-md pl-2 p-2 lg:w-[35%]"  type="mail" placeholder='RC1234567' />
               {/* <p className='p-kyc'>Upload</p> */}
       
@@ -217,7 +217,7 @@ const Profile = () => {
         </div>
        </div>
         
-        <div className='px-3 py-3 pb-16'>
+        <div className='px-1 py-3 pb-16'>
         <div className='bg-white rounded-md p-3 lg:w-[85%] relative lg:left-20'>
         <div className="danger">
           <h3 className='text-base font-bold py-3'>Danger Zone</h3>
