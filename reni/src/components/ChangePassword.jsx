@@ -5,7 +5,7 @@ const ChangePassword = () => {
   return (
     <DashboardLayout>
   <div className='bg-customLightBlue min-h-screen w-full overflow-x-hidden relative'>
-    <div className="bg-white lg:w-[80%] relative w-[95%] left-2 top-12  lg:left-20 p-4 rounded-md">
+    <div className="bg-white lg:w-[80%] relative w-[95%] left-2 top-12  lg:left-20 p-2 rounded-md">
         <h3 className='font-bold text-base py-6'>Change Password</h3>
 
         <div className="grid gap-4 grid-cols-1">
