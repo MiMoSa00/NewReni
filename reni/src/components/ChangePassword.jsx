@@ -20,7 +20,7 @@ const ChangePassword = () => {
            
         </div> 
         <div className='pt-5'>
-        <button className='border p-2 text-customDeepBlue font-normal text-base relative left-32 lg:left-[19%]  border-customDeepBlue rounded-md '>Change Password</button>
+        <button className='border p-2 text-customDeepBlue font-normal text-base relative left-32 lg:left-[25%] xl:left-[19%]  border-customDeepBlue rounded-md '>Change Password</button>
 
         </div>
     </div>

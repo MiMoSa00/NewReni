@@ -35,14 +35,14 @@ const Dashboard = () => {
             <p>Kuda Bank (1234 2345 7890)</p>
           </div>
 
-          <div className="bg-white lg:w-[48.5%] w-full rounded-md p-4"> {/* Use w-full on small screens */}
+          <div className="bg-white lg:w-[48.5%] w-full rounded-md p-2"> {/* Use w-full on small screens */}
             <p className='mb-6 font-medium'>Tools</p>
-            <div className="flex gap-4 lg:gap-2 lg:justify-center"> {/* Added flex-wrap to prevent overflow */}
-              <img src={dash} alt="Tool" className="w-12 h-12 lg:w-19 lg:h-19"/>
-              <img src={dash} alt="Tool" className="w-12 h-12 lg:w-19 lg:h-19" />
-              <img src={dash} alt="Tool" className="w-12 h-12 lg:w-19 lg:h-19" />
-              <img src={dash} alt="Tool" className="w-12 h-12 lg:w-19 lg:h-19" />
-              <img src={dash} alt="Tool" className="w-12 h-12 lg:w-19 lg:h-19" />
+            <div className="flex gap-9 lg:gap-6 lg:justify-center"> {/* Added flex-wrap to prevent overflow */}
+              <img src={dash} alt="Tool" className="w-12 h-12 xl:w-29 xl:h-29 lg:w-19 lg:h-19"/>
+              <img src={dash} alt="Tool" className="w-12 h-12 xl:w-29 xl:h-29 lg:w-19 lg:h-19" />
+              <img src={dash} alt="Tool" className="w-12 h-12 xl:w-29 xl:h-29 lg:w-19 lg:h-19" />
+              <img src={dash} alt="Tool" className="w-12 h-12 xl:w-29 xl:h-29 lg:w-19 lg:h-19" />
+              <img src={dash} alt="Tool" className="w-12 h-12 xl:w-29 xl:h-29 lg:w-19 lg:h-19" />
             </div>
           </div>
 
@@ -62,7 +62,7 @@ const Dashboard = () => {
           <a href="https://www.fireswitch.tech">https://www.fireswitch.tech</a>
             <BsThreeDots onClick={toggleDropdown4} className='relative' />
             {dropdownVisible4 && (
-              <ul className='absolute top-[91%] lg:top-[80%] z-30 lg:right-48  border border-custom rounded-md right-2 p-4 bg-white'>
+              <ul className='absolute top-[91%] lg:top-[80%] z-30 lg:right-44  border border-custom rounded-md right-2 p-4 bg-white'>
                 <li className='cursor-pointer'>Unlink Business</li>
                 <li className='cursor-pointer'>Edit Business</li>
               </ul>
@@ -137,7 +137,7 @@ const Dashboard = () => {
             <h4 className='font-medium'>API Stats</h4>
             <BsThreeDots onClick={toggleDropdown2} className='relative' />
               {dropdownVisible2 && (
-                 <ul className='absolute lg:top-[68%] rounded-md w-1/6 top-[7%] border border-custom z-30 right-6 p-4 bg-white'>
+                 <ul className='absolute lg:top-[15%] lg:right-24 rounded-md w-1/6 top-[7%] border border-custom z-30 right-6 p-4 bg-white'>
                  <li className='cursor-pointer'>Hide</li>
                </ul>
                 

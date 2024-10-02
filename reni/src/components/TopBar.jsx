@@ -39,7 +39,7 @@ const TopBar = ({ show, set }) => {
     <div onClick={toggleDropdown} className="relative">
       {dropdownVisible ? <FaChevronUp className="text-lightGray" /> : <FaChevronDown className="text-lightGray" />}
       {dropdownVisible && createPortal (
-        <ul className="bg-white absolute right-7 lg:right-20 top-10 z-[99] w-48 shadow-md p-2 rounded-md">
+        <ul className="bg-white absolute right-7 lg:top-16 lg:right-28 xl:right-[8%] top-10 z-[99] w-48 shadow-md p-2 rounded-md">
           <li className="flex items-center gap-2 p-1 hover:bg-gray-200">
             <img src={small} className="w-5 h-5 lg:w-7 lg:h-7 max-w-full" alt="small logo" />
             Sheda House
