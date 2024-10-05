@@ -131,7 +131,7 @@ const Webhook = () => {
           <div>
             <div className='flex justify-between items-center'>
               <h4 className='font-bold text-base'>Webhooks</h4>
-              <BsThreeDots onClick={toggleDropdown3} className='relative' />
+              <BsThreeDots onClick={toggleDropdown3} className='relative cursor-pointer' />
             {dropdownVisible3 && (
               <ul className='absolute top-[16%] xl:top-[29%] lg:top-[26%] border border-custom z-30 right-2 lg:right-28 xl:right-28 rounded-md p-4 bg-white'>
                 
@@ -234,7 +234,7 @@ const Webhook = () => {
      <div className='bg-white p-4 rounded-md '>
           <div className='flex justify-between'>
             <h4 className='font-bold text-base'>Analytics</h4>
-            <BsThreeDots onClick={toggleDropdown2} className='relative' />
+            <BsThreeDots onClick={toggleDropdown2} className='relative cursor-pointer' />
               {dropdownVisible2 && (
                  <ul className='absolute xl:top-[12%] lg:top-[14%] border border-custom rounded-md w-1/6 top-[6%] z-30 right-4 p-4 bg-white'>
                  <li className=''>Hide</li>

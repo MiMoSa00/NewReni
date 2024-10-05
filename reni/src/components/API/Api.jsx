@@ -92,7 +92,7 @@ const Api = () => {
           <div>
             <div className='flex justify-between items-center'>
               <h4 className='font-semibold text-lg'>API</h4>
-              <BsThreeDots onClick={toggleDropdown3} className='relative' />
+              <BsThreeDots onClick={toggleDropdown3} className='relative cursor-pointer' />
             {dropdownVisible3 && (
               <ul className='absolute top-[10%] lg:top-[18%] border border-custom z-30 right-2 lg:right-24 rounded-md p-4 bg-white'>
                 <li className='api-item'>Generate new API </li>
@@ -157,7 +157,7 @@ const Api = () => {
      <div className='bg-white p-4 rounded-md '>
           <div className='flex justify-between'>
             <h4>API Stats</h4>
-            <BsThreeDots onClick={toggleDropdown2} className='relative' />
+            <BsThreeDots onClick={toggleDropdown2} className='relative cursor-pointer' />
               {dropdownVisible2 && (
                  <ul className='absolute lg:top-[15%] border border-custom rounded-md w-1/6 top-[8%] z-30 right-6 p-4 bg-white'>
                  <li className='api-item'>Hide</li>

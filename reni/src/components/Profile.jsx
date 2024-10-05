@@ -103,11 +103,11 @@ const Profile = () => {
             <div className="flex items-center gap-7">
               <label className='text-DeepGray font-medium whitespace-nowrap'>Account type</label>
               <div className="flex items-center gap-2" onClick={() => handleToggle('Developer')}>
-                {selected === 'Developer' ? <IoIosRadioButtonOn className='newpro'/> : <IoIosRadioButtonOff className='newpros'/>}
+                {selected === 'Developer' ? <IoIosRadioButtonOn className='cursor-pointer'/> : <IoIosRadioButtonOff className='cursor-pointer'/>}
                 <p className='dev'>Developer</p>
               </div>
               <div className="flex items-center gap-2" onClick={() => handleToggle('Business')}>
-                {selected === 'Business' ? <IoIosRadioButtonOn  className='newpro'/> : <IoIosRadioButtonOff className='newpros'/>}
+                {selected === 'Business' ? <IoIosRadioButtonOn  className='cursor-pointer'/> : <IoIosRadioButtonOff className='cursor-pointer'/>}
                 <p className='devs'>Business</p>
               </div>
             </div>
@@ -131,7 +131,7 @@ const Profile = () => {
              
               <div className="flex relative lg:-ml-36 xl:-ml-52 left-28 gap-5 items-center">
               <p className='text-blue-500 font-medium'>Upload</p>
-        <div className="flex items-center p-2 rounded-lg gap-2 bg-blue-300" onClick={openFileDialog}>
+        <div className="flex items-center p-2 rounded-lg gap-2 bg-blue-300 cursor-pointer" onClick={openFileDialog}>
         <span>MY NIN.png</span>
           <IoMdImage className="image-icon" />
          

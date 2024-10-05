@@ -10,9 +10,9 @@ import { MdLockOutline, MdLogout } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 const Sidebar = ({show, set}) => {
-  const [dropdownVisible, setDropdownVisible] = useState(false);
+  const [dropdownVisible, setDropdownVisible] = useState(true);
   // const [isModalOpen, setIsModalOpen] = useState(false);
-  const [activeItem, setActiveItem] = useState('Dashboard');
+  const [activeItem, setActiveItem] = useState(true);
 
   const toggleDropdown = () => {
     setDropdownVisible(!dropdownVisible);
@@ -125,7 +125,7 @@ const Sidebar = ({show, set}) => {
             )}
           </div>
           <Link to='/log-in'></Link>
-          <div className="flex items-center gap-2 px-2 py-5 hover:bg-customBlack focus-within:bg-customBlack active:bg-customBlack rounded-lg transition-colors duration-300">
+          <div className="flex items-center gap-2 px-2 py-5 hover:bg-customBlack focus-within:bg-customBlack active:bg-customBlack rounded-lg transition-colors duration-300 cursor-pointer">
             <MdLogout />
             <li className="list-none">Logout</li>
           </div>
@@ -134,7 +134,9 @@ const Sidebar = ({show, set}) => {
 
       {/* Modal (Visible on small screens when hamburger is clicked) */}
       {show && (
-        <div className="fixed inset-0 w-2/3 z-50 bg-customDeepBlue text-white p-4 lg:hidden h-screen">
+        <div 
+        className={`fixed inset-0 w-2/3 z-50 bg-customDeepBlue text-white p-4 lg:hidden h-screen transition-transform duration-300 ${show ? 'animate-slideIn' : 'animate-slideOut'}`}
+    >
           <div className="flex justify-between items-center">
             <div className='mr-2 flex items-center'>
             <img src={logo} className="h-14 w-14" />

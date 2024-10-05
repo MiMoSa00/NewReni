@@ -29,13 +29,13 @@ const Dashboard = () => {
       <div className="bg-customLightBlue min-h-screen w-full  overflow-x-hidden relative"> 
         <div className="lg:flex  lg:justify-center grid lg:[82%] grid-cols-1 gap-5 py-4 px-1 lg:px-0  relative"> {/* Reduced padding on small screens */}
     
-          <div className="bg-white lg:w-[33%] w-full rounded-md p-4"> {/* Use w-full on small screens */}
+          <div className="bg-white lg:w-[33.4%] w-full rounded-md p-4"> {/* Use w-full on small screens */}
             <p className="font-medium">Wallet Balance</p>
             <h2 className='font-semibold text-7xl right-1 relative'>0.00</h2>
             <p>Kuda Bank (1234 2345 7890)</p>
           </div>
 
-          <div className="bg-white lg:w-[48.5%] w-full rounded-md p-2"> {/* Use w-full on small screens */}
+          <div className="bg-white lg:w-[47.7%] w-full rounded-md p-2"> {/* Use w-full on small screens */}
             <p className='mb-6 font-medium'>Tools</p>
             <div className="flex gap-4 lg:gap-6 justify-center"> {/* Added flex-wrap to prevent overflow */}
               <img src={dash} alt="Tool" className="w-12 h-12 xl:w-29 xl:h-29 lg:w-19 lg:h-19"/>
@@ -47,8 +47,8 @@ const Dashboard = () => {
           </div>
 
         </div>
-        <div className='lg:left-[8%] relative lg:px-0 px-1'>
-        <div className="bg-white  w-full lg:w-[83.5%] rounded-md p-2">
+        <div className='lg:left-[8.6%] relative lg:px-0 px-1'>
+        <div className="bg-white  w-full lg:w-[82.5%] rounded-md p-2">
          <div className='flex justify-between p-2'>
           <h2 className='font-medium text-lg'>Business</h2>
           <button onClick={() => {
@@ -60,7 +60,7 @@ const Dashboard = () => {
           <h5 className='font-semibold text-lg'>Fireswitch Technologies LTD</h5>
           <div className='flex justify-between'>
           <a href="https://www.fireswitch.tech">https://www.fireswitch.tech</a>
-            <BsThreeDots onClick={toggleDropdown4} className='relative' />
+            <BsThreeDots onClick={toggleDropdown4} className='relative cursor-pointer' />
             {dropdownVisible4 && (
               <ul className='absolute top-[91%] lg:top-[80%] z-30 lg:right-44  border border-custom rounded-md right-2 p-4 bg-white'>
                 <li className='cursor-pointer'>Unlink Business</li>
@@ -71,12 +71,12 @@ const Dashboard = () => {
           </div>
         </div>
         </div>
-        <div className=' py-4  relative lg:left-[8%]  lg:px-0 px-1'>
-        <div className='bg-white lg:w-[83.5%]  rounded-md p-3'>
+        <div className=' py-4  relative lg:left-[8.6%]  lg:px-0 px-1'>
+        <div className='bg-white lg:w-[82.3%]  rounded-md p-3'>
           <div>
             <div className='flex justify-between items-center'>
               <h4 className='font-semibold text-lg'>API</h4>
-              <BsThreeDots onClick={toggleDropdown3} className='relative' />
+              <BsThreeDots onClick={toggleDropdown3} className='relative cursor-pointer' />
             {dropdownVisible3 && (
               <ul className='absolute top-[9%] border border-custom lg:top-[22%] z-30 right-2 lg:right-40  rounded-md p-4 bg-white'>
                 <li className='cursor-pointer'>Generate new API </li>
@@ -131,11 +131,11 @@ const Dashboard = () => {
           </div>
         </div>
         </div>
-     <div className='p-2   pl-1  lg:left-[7%]   relative pb-[100px]'>
-     <div className='bg-white p-4 rounded-md lg:w-[85.2%]'>
+     <div className='p-2   pl-1  lg:left-[8.3%]   relative pb-[100px]'>
+     <div className='bg-white p-4 rounded-md lg:w-[82.7%]'>
           <div className='flex justify-between'>
             <h4 className='font-medium'>API Stats</h4>
-            <BsThreeDots onClick={toggleDropdown2} className='relative' />
+            <BsThreeDots onClick={toggleDropdown2} className='relative cursor-pointer' />
               {dropdownVisible2 && (
                  <ul className='absolute lg:top-[15%] lg:right-24 rounded-md w-1/6 top-[7%] border border-custom z-30 right-6 p-4 bg-white'>
                  <li className='cursor-pointer'>Hide</li>

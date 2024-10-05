@@ -36,7 +36,7 @@ const TopBar = ({ show, set }) => {
     </div>
 
     {/* Dropdown Section */}
-    <div onClick={toggleDropdown} className="relative">
+    <div onClick={toggleDropdown} className="relative cursor-pointer">
       {dropdownVisible ? <FaChevronUp className="text-lightGray" /> : <FaChevronDown className="text-lightGray" />}
       {dropdownVisible && createPortal (
         <ul className="bg-white absolute right-8 lg:top-16 lg:right-20 xl:right-[5.6%] top-14 z-[99] w-48 shadow-md p-2 rounded-md">
