@@ -133,7 +133,7 @@ const Webhook = () => {
               <h4 className='font-bold text-base'>Webhooks</h4>
               <BsThreeDots onClick={toggleDropdown3} className='relative' />
             {dropdownVisible3 && (
-              <ul className='absolute top-[4%] xl:top-[29%] lg:top-[26%] border border-custom z-30 right-2 lg:right-28 xl:right-28 rounded-md p-4 bg-white'>
+              <ul className='absolute top-[16%] xl:top-[29%] lg:top-[26%] border border-custom z-30 right-2 lg:right-28 xl:right-28 rounded-md p-4 bg-white'>
                 
                 <li className='cursor-pointer'  onClick={() => {
                     setOpenModal(true)
@@ -236,7 +236,7 @@ const Webhook = () => {
             <h4 className='font-bold text-base'>Analytics</h4>
             <BsThreeDots onClick={toggleDropdown2} className='relative' />
               {dropdownVisible2 && (
-                 <ul className='absolute xl:top-[12%] lg:top-[14%] border border-custom rounded-md w-1/6 top-[50%] z-30 right-4 p-4 bg-white'>
+                 <ul className='absolute xl:top-[12%] lg:top-[14%] border border-custom rounded-md w-1/6 top-[6%] z-30 right-4 p-4 bg-white'>
                  <li className=''>Hide</li>
                </ul>
                 

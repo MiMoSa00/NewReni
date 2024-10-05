@@ -186,7 +186,7 @@ const Profile = () => {
       
             </div>
 
-            <div className="flex items-center gap-5 py-3">
+            <div className="flex items-center gap-6 py-3">
               <label  className="text-DeepGray font-medium">Memorandum <br /> of Article</label>
               <div className="lg:flex lg:items-center lg:w-full lg:left-1 relative lg:gap-3">
               <input className="outline-none border border-lightGray rounded-md pl-2 p-2 lg:w-[44%] xl:w-[40%]"  type="mail" placeholder='My Memorandum Aritcle.png' />
