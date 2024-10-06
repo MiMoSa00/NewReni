@@ -61,7 +61,7 @@ const Sidebar = ({show, set}) => {
               className={getItemClasses('Api')}
               onClick={() => handleItemClick('Api')}
             >
-              <RiKeyLine />
+              <RiKeyLine className='font-bold text-2xl'/>
               <li className="list-none">Api</li>
             </div>
           </Link>
@@ -71,7 +71,7 @@ const Sidebar = ({show, set}) => {
               className={getItemClasses('Webhook')}
               onClick={() => handleItemClick('Webhook')}
             >
-              <img src={link} alt="" />
+              <img src={link} alt="" className='font-bold w-7 h-7'/>
               <li className="list-none">Webhook</li>
             </div>
           </Link>
@@ -80,9 +80,9 @@ const Sidebar = ({show, set}) => {
             className={getItemClasses('Doc')}
             onClick={() => handleItemClick('Doc')}
           >
-            <IoDocumentTextOutline className="flex-shrink-0" />
+            <IoDocumentTextOutline className="flex-shrink-0 font-bold text-2xl" />
             <li className="list-none">Doc</li>
-            <RiArrowRightUpLine className="ml-10 flex-shrink-0" />
+            <RiArrowRightUpLine className="ml-10 flex-shrink-0 font-bold text-2xl" />
           </div>
 
           <div>
@@ -93,9 +93,9 @@ const Sidebar = ({show, set}) => {
                 toggleDropdown();
               }}
             >
-              <IoSettingsOutline />
+              <IoSettingsOutline className='font-bold text-2xl'/>
               <li className="list-none">Setting</li>
-              {dropdownVisible ? <FaChevronUp /> : <FaChevronDown />}
+              {dropdownVisible ? <FaChevronUp className='font-bold text-lg'/> : <FaChevronDown className='font-bold text-lg'/>}
             </div>
             {dropdownVisible && (
               <div>
@@ -177,12 +177,12 @@ const Sidebar = ({show, set}) => {
             {dropdownVisible && (
               <div className="pl-4">
                 <Link to="/profile">
-                  <li className="flex items-center list-none gap-2 py-5 hover:bg-customBlack rounded-lg transition-colors duration-300">
+                  <li className="flex items-center list-none gap-2 py-5 px-3 hover:bg-customBlack rounded-lg transition-colors duration-300">
                     <AiOutlineUser className="icon" /> Profile
                   </li>
                 </Link>
                 <Link to="/changepassword">
-                  <li className="flex items-center list-none gap-2 py-5 hover:bg-customBlack rounded-lg transition-colors duration-300">
+                  <li className="flex items-center list-none gap-2 px-3 py-5 hover:bg-customBlack rounded-lg transition-colors duration-300">
                     <MdLockOutline className="icon" /> Change password
                   </li>
                 </Link>

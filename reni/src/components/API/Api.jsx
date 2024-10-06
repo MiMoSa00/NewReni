@@ -87,7 +87,7 @@ const Api = () => {
   return (
         <DashboardLayout>
   <div className='bg-customLightBlue min-h-screen w-full overflow-x-hidden relative'>
-  <div className='px-2 py-4 lg:pl-4 relative lg:left-[6%]'>
+  <div className='px-1 py-4 lg:pl-4 relative lg:left-[6%]'>
         <div className='bg-white lg:w-[86%]   rounded-md p-4'>
           <div>
             <div className='flex justify-between items-center'>
@@ -153,7 +153,7 @@ const Api = () => {
           </div>
         </div>
         </div>
-        <div className='p-2 relative lg:left-[5.5%]  pl-4 lg:w-[87%] pb-4'>
+        <div className='p-1 relative lg:left-[5.5%]  pl-1 lg:w-[87%] pb-4'>
      <div className='bg-white p-4 rounded-md '>
           <div className='flex justify-between'>
             <h4>API Stats</h4>
@@ -181,16 +181,16 @@ const Api = () => {
           </div>
         </div>
      </div>
-     <div className="p-2 pl-4 lg:w-[86%] w-full relative lg:left-[7%] lg:pl-0 overflow-x-scroll lg:overflow-x-hidden pb-[100px]">
+     <div className="p-1 pl-1 lg:w-[86%] w-full relative lg:left-[7%] lg:pl-0 overflow-x-scroll lg:overflow-x-hidden pb-[100px]">
   <div className="bg-white p-4 rounded-md overflow-x-scroll lg:overflow-x-hidden w-[100%] flex justify-between">
     <table className="w-full">
       <thead>
         <tr className="text-lightGray ">
-          <th className="text-left px-4 py-1 font-medium text-sm">Name</th>
+          <th className="text-left px-1 py-1 font-medium text-sm">Name</th>
           <th className="text-left px-4 py-1 lg:pl-16 font-medium text-sm">Token</th>
           <th className="text-left px-4 py-1 lg:left-[4%] xl:left-[9%] relative font-medium text-sm">Status</th>
           <th className="text-left px-4 py-1 lg:left-[5%] xl:left-[11%] relative font-medium text-sm">Time</th>
-          <th className="lg:right-[4%] right-12 xl:left-[1%] relative pl-10 py-1 whitespace-nowrap font-medium text-sm">Show more</th>
+          <th className="lg:right-[4%] right-10 xl:left-[1%] relative pl-10 py-1 whitespace-nowrap font-medium text-sm">Show more</th>
         </tr>
       </thead>
       <tbody>

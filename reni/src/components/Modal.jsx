@@ -3,13 +3,14 @@ import React from 'react'
 const Modal = ({ closeModal}) => {
   return (
     <div className='w-full bg-customBlack overflow-y-scroll absolute h-full z-40 top-0 left-0'>
-        <div className='bg-white lg:w-[39%] top-36 w-[90%] left-5 p-4 lg:top-10 relative lg:left-56 xl:left-80 rounded-md'>
+      <div className='pb-[100px]'> 
+         <div className='bg-white lg:w-[39%] top-36 w-[90%] left-5 p-4  lg:top-10 relative lg:left-56 xl:left-80 rounded-md'>
            <div className='text-right'>
            <button className="bg-transparent text-black  font-medium text-xl"onClick={() =>  closeModal(false)}>X</button>
             </div>
             <div>
                <h2 className='text-sm  font-bold'> Business Information</h2> 
-               <form className='grid grid-cols-1 lg:gap-2 py-4'>
+               <form className='grid grid-cols-1 gap-3 lg:gap-2 py-4'>
                 <label className='text-DeepGray'>Business Name </label>
                 <input type="text" className='border border-lightGray rounded-md p-1 px-3 outline-none' placeholder='Enter your business name' />
                 <label className='text-DeepGray'>Business Phone Number</label>
@@ -28,6 +29,8 @@ const Modal = ({ closeModal}) => {
                 </div> 
 
         </div>
+        </div>
+       
     </div>
   )
 }

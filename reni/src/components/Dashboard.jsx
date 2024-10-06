@@ -131,8 +131,8 @@ const Dashboard = () => {
           </div>
         </div>
         </div>
-     <div className='p-2   pl-1  lg:left-[8.3%]   relative pb-[100px]'>
-     <div className='bg-white p-4 rounded-md lg:w-[82.7%]'>
+     <div className=' px-1  lg:left-[8.3%]   relative pb-[100px]'>
+     <div className='bg-white p-4  w-full rounded-md lg:w-[82.7%]'>
           <div className='flex justify-between'>
             <h4 className='font-medium'>API Stats</h4>
             <BsThreeDots onClick={toggleDropdown2} className='relative cursor-pointer' />
