@@ -100,7 +100,7 @@ const Api = () => {
               </ul>
             )}
             </div>
-            <div className="text-orange-500 border  border-orange-500 rounded-md gap-3 lg:p-2 flex items-center">
+            <div className="text-orange-500 border p-2  border-orange-500 rounded-md gap-3 lg:p-2 flex items-center">
             <IoWarningOutline className="flex-shrink-0 text-xl" />
             <p className="text-sm">
               Api tokens can be used to control your whole account and use features added in the future. Be careful when using them!

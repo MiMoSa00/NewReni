@@ -96,7 +96,7 @@ const Signup = () => {
                             <div className='flex gap-2 my-3 items-center'>
                                 <input
                                     type="checkbox"
-                                    className={`custom-checkbox h-5 w-5  cursor-pointer appearance-none bg-gray-300 flex items-center justify-center 
+                                    className={`custom-checkbox h-6 w-6  cursor-pointer appearance-none bg-gray-300 flex items-center justify-center 
                                       ${checked ? 'bg-green-500' : ''}`}
                                     checked={checked}
                                     onChange={() => setChecked(!checked)}
@@ -120,7 +120,7 @@ const Signup = () => {
                             </div> */}
 
                             <div className=''>
-                                <Link to='/sign-up'>
+                                <Link to='/dashboard'>
                                     <button className='border bg-customDeepBlue font-semibold rounded-md 
                                  px-6 py-2 text-white w-full'>
                                        Create account
