@@ -39,10 +39,10 @@ const Verification = () => {
     return (
        
         <div className='grid grid-cols-1 md:grid-cols-2 min-h-screen'>
-            <div className='hidden md:block'>
-                <img src={Background} className='object-cover' />
+            <div className='hidden md:block relative'>
+                <img src={Background} className='object-cover h-screen w-full fixed left-0 top-0 md:w-1/2' />
             </div>
-            <div className='bg-customLightBlue py-8 min-h-screen'>
+            <div className='bg-customLightBlue py-2 min-h-full overflow-y-auto md:w-full sm:w-full  ml-auto'>
                 <div className='flex items-center justify-center gap-3'>
                     <img src={logo} className='h-14 w-14' />
                     <p className='text-customDeepBlue font-bold'>RENI.One</p>
